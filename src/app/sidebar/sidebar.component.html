@@ -1,0 +1,6 @@
+<p-sidebar [(visible)]="display" [showCloseIcon]="false" [style]="{'width':'330px', 'margin-top':'60px'}" id="sidebar">
+    <app-menubar id="panelmenu"></app-menubar>
+    <app-tiered-menu id="tieredmenu"></app-tiered-menu>
+</p-sidebar>
+
+<button type="text" (click)="display = true" pButton icon="pi pi-plus" label="Show"></button>

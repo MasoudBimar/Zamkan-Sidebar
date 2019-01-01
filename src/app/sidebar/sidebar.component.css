@@ -1,0 +1,35 @@
+#tieredmenu {
+  display: none;
+}
+
+/*
+  
+  @media screen and (min-width: 40.063em) {
+  */
+
+@media only screen and (max-width: 1000px) {
+
+  #tieredmenu {
+    display: inline-block;
+    position: relative;
+  }
+
+  #panelmenu {
+    display: none;
+  }
+}
+
+/*
+    @media only screen and (max-width: 40em) {
+    */
+@media only screen and (min-width: 1000px) {
+
+  #tieredmenu {
+    display: none;
+  }
+
+  #panelmenu {
+    display: inline-block;
+    position: relative;
+  }
+}
