@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {SidebarModule} from 'primeng/sidebar';
 
 @Component({
@@ -7,7 +7,7 @@ import {SidebarModule} from 'primeng/sidebar';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-
+  @Input()
   display:boolean=true;
   
   constructor() { }

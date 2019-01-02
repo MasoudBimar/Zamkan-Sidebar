@@ -2,6 +2,14 @@
   display: none;
 }
 
+.sidenav, .sidenav-mini {
+  height: 100%;
+  position: fixed;
+  padding-right: 0px;
+  padding-top: 1em;
+  background-color: #2D353C !important;
+}
+
 /*
   
   @media screen and (min-width: 40.063em) {
