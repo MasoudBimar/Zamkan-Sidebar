@@ -1,9 +1,16 @@
 
 
+<div class="">
 
-<p-sidebar class="sidenav" [(visible)]="display" [showCloseIcon]="false" [modal]="false" 
-[style]="{'width':'345px', 'margin-top':'60px'}" id="sidebar" position="right">
-    <app-menubar id="panelmenu" class="sidenav-big"></app-menubar>
+
+<p-sidebar styleClass="ui-sidebar-sm ui-sidebar-right" [(visible)]="display" [showCloseIcon]="false" [modal]="false" 
+
+id="sidebar" position="right" >
+    <app-menubar id="panelmenu" class="sidenav-big" ></app-menubar>
     <app-tiered-menu id="tieredmenu" class="sidenav-mini"></app-tiered-menu>
 </p-sidebar>
+</div>
+
+
+<!-- [style]="{'width':'345px', 'margin-top':'60px'}"  -->
 

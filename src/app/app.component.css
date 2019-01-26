@@ -1,4 +1,4 @@
-.top-logo {
+/* .top-logo {
     height: 50px;
   }
   #header {
@@ -31,7 +31,7 @@
   }
 
 
-  /* Style the navigation bar                                                               */
+
   .icon-bar {
     width: 100%;
     background-color: #555;
@@ -54,8 +54,7 @@
   }
 
   .menubar {
-    /* margin-left:-50px;
-    margin-right:-50px; */
+
     align-content: center;
 
 
@@ -63,4 +62,4 @@
   
   .active {
     background-color: #4CAF50;
-  }
+  } */

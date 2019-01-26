@@ -7,8 +7,7 @@ import {SidebarModule} from 'primeng/sidebar';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  @Input()
-  display:boolean=true;
+  @Input()display:boolean=true;
   
   constructor() { }
 
