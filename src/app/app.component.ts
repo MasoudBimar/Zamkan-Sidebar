@@ -8,19 +8,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { CustomSidenavComponent } from "./components/custome-sidenav/custom-sidenav.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    CustomSidenavComponent
-],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [
+        RouterOutlet,
+        CommonModule,
+        MatToolbarModule,
+        MatButtonModule,
+        MatIconModule,
+        MatSidenavModule,
+        CustomSidenavComponent
+    ],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'ZamkanSidebar';
