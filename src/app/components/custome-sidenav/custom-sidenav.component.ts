@@ -1,13 +1,13 @@
 import { Component, computed, Input, signal } from '@angular/core';
 import { MenuItem } from '../../model/menu-item.model';
 import { MatListModule } from '@angular/material/list';
-import { CommonModule } from '@angular/common';
+
 import { MatIconModule } from '@angular/material/icon';
 import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-custom-sidenav',
-    imports: [MatListModule, CommonModule, MatIconModule, RouterModule],
+    imports: [MatListModule, MatIconModule, RouterModule],
     templateUrl: './custom-sidenav.component.html',
     styleUrl: './custom-sidenav.component.scss'
 })
